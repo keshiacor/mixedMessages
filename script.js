@@ -18,7 +18,6 @@ let messageOfTheDay = [];
 
     for (messages in messagesOfHope){
       let nextMessage = randomGenerator(messagesOfHope[messages].length);
-      console.log(nextMessage);
       if (nextMessage === 1 || nextMessage===0){
         messageOfTheDay.push(`Your daily affirmation is: ${messagesOfHope[messages][nextMessage]}.`);
       } else if(nextMessage === 2){
