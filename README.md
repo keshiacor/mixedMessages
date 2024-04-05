@@ -1,4 +1,3 @@
-# mixedMessages
 
 <div align="center">
   <h1> Random Inspirational Mixed Message </h1>
